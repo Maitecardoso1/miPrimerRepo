@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.menu {
+    display: grid;
+    grid-column-gap: 200px;
+    grid-row-gap: 40px;
+    font-family: 'poppins';
+    text-align: right;
+    font-size: larger;
+
+}
+
+
+h2 {
+    color: blue;
+    ;
+    text-align: left;
+}
+
+.conocenos {
+    color: blue;
+    ;
+    text-align: center;
+}
+
+.textoconocenos {
+    line-height: 2;
+    font-family: sans-serif;
+    margin-right: 100px;
+    margin-left: 70px;
+    font-size: large;
+    font-style: italic;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin: 10px;
+    border: 5px dashed blue;
+    display: grid;
+    height: 50vh; width: 100%;
+
+}
+
+
+
+body {
+    background-color: rgb(231, 221, 203);
+    background-size: contain;
+    color: rgb(51, 52, 124), 250;
+    font-family: 'poppins';
+}
+
+footer {
+    font-family: 'poppins';
+
+}
+
+
+.logo {
+    padding-left: 3%;
+    padding-top: 2%;
+
+}
+
+.mapa {
+    padding-left: 35%;
+
+}
+
+.secciones {
+    text-decoration: none;
+    color: blue;
+    word-spacing: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: blue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 30px;
+}
+
+.form {
+    justify-self: right;
+    font-size:20px;
+    border:1px solid #210454;
+    width:400px;
+    margin:auto;
+    font-weight:bold;
+    font-size:20px;
+    background-color: rgb(188, 154, 154);
+
+
+}
+.btnform {
+    padding: bottom 5px;
+    padding:3px;
+    color:#FFFFFF;
+    background-color:#b01111;
+    border:1px solid #290a66;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(228, 214, 195);
+    }
+
+    .textoconocenos {
+        background-color: chocolate;
+        font-size: 10px;
+
+    }
+}
