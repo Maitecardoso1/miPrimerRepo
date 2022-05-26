@@ -20,6 +20,12 @@ h2 {
     ;
     text-align: left;
 }
+h1 {
+    color: blue;
+    ;
+    text-align: center;
+    padding-top: 50px;
+}
 
 .conocenos {
     color: blue;
@@ -242,3 +248,12 @@ footer {
 .tambien {text-align: left;
 
 }
+
+.rounded {width: 500px; height: 400px;
+}
+.carousel { width: 1000px; height: 700px;
+    font-family: 'poppins';
+
+
+}
+.text-center{ font-size: 35px;}
