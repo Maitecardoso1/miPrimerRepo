@@ -1,8 +1,5 @@
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
+@import 'breakpoints';
+@import 'mixins'
 
 .menu {
     display: grid;
@@ -13,7 +10,6 @@
     font-size: larger;
 
 }
-
 
 h2 {
     color: blue;
@@ -28,6 +24,8 @@ h1 {
 }
 
 .conocenos {
+    @include flex;
+    
     color: blue;
     ;
     text-align: center;
@@ -145,10 +143,11 @@ footer {
     transition: all ease 0.5s;
     font-family: 'poppins'
 }
-
 .btn:hover {
+    @extend .btn;
+
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-    background: #c91212
+    background-color: map.get($coloresredes, color)
 }
 
 @media screen and (max-width: 600px) {
@@ -262,3 +261,5 @@ footer {
 
     }
 }
+
+$coloresredes:(twitter:#f4a85c, facebook:#f4a)
