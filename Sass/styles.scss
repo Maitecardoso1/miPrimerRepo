@@ -1,57 +1,21 @@
 @import 'breakpoints';
-@import 'mixins'
+@import 'mixins';
 
-.menu {
-    display: grid;
-    grid-column-gap: 200px;
-    grid-row-gap: 40px;
-    font-family: 'poppins';
-    text-align: right;
-    font-size: larger;
-
-}
 
 h2 {
-    color: blue;
-    ;
+    color: #454282;
     text-align: left;
 }
+
 h1 {
-    color: blue;
-    ;
+    color: #492818;
     text-align: center;
     padding-top: 50px;
 }
 
-.conocenos {
-    @include flex;
-    
-    color: blue;
-    ;
-    text-align: center;
-    p {     line-height: 2;
-        font-family: sans-serif;
-        margin-right: 100px;
-        margin-left: 70px;
-        font-size: large;
-        font-style: italic;
-        word-spacing: 5px;
-        letter-spacing: 2px;
-        padding: 20px;
-        margin: 10px;
-        border: 5px dashed blue;
-        display: grid;
-        height: 50vh;
-        width: 100%;
-
-    }
-}
-
-
 
 body {
     background-size: contain;
-    color: rgb(51, 52, 124), 250;
     font-family: 'poppins';
     background-image: url(../img/fondogris.jpg);
 }
@@ -73,11 +37,6 @@ footer {
 
 }
 
-.secciones {
-    text-decoration: none;
-    color: blue;
-    word-spacing: 40px;
-}
 
 .link {
     text-decoration: none;
@@ -143,11 +102,11 @@ footer {
     transition: all ease 0.5s;
     font-family: 'poppins'
 }
+
 .btn:hover {
     @extend .btn;
 
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-    background-color: map.get($coloresredes, color)
 }
 
 @media screen and (max-width: 600px) {
@@ -157,12 +116,6 @@ footer {
     }
 }
 
-.textoconocenos {
-    background-color: rgb(245, 247, 252);
-    font-size: 20px; text-align: center;
-
-
-}
 
 .tienda {
     display: grid;
@@ -221,7 +174,7 @@ footer {
     grid-area: 3 / 4 / 4 / 5;
 }
 
-.form-control1{ 
+.form-control1 {
     width: 75%;
     height: 30px;
     padding: 12px 20px;
@@ -231,7 +184,8 @@ footer {
     background-color: #f8f8f8;
     resize: none;
 }
-.form-control2{ 
+
+.form-control2 {
     width: 75%;
     height: 50px;
     padding: 12px 20px;
@@ -242,24 +196,73 @@ footer {
     background-color: #f8f8f8;
     resize: none;
 }
-.tambien {text-align: left;
+
+.tambien {
+    text-align: left;
 
 }
 
-.rounded {width: 500px; height: 400px;
+.rounded {
+    width: 500px;
+    height: 400px;
 }
-.carousel { width: 1000px; height: 700px;
+
+.carousel {
+    width: 1000px;
+    height: 700px;
     font-family: 'poppins';
 
 
 }
-.text-center{ font-size: 35px;}
+
+.text-center {
+    font-size: 35px;
+}
 
 .videosito {
     text-align: left;
-    & .vid{ font-size: 35px;
+
+    & .vid {
+        font-size: 35px;
 
     }
 }
 
-$coloresredes:(twitter:#f4a85c, facebook:#f4a)
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BC7C58;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ede9ea;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #492818;
+    color: bisque;
+}
+
+div.noticia {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #ADA9AA;
+    color: #492818;
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  div.noticia img.izquierda { width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;}

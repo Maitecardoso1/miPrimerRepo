@@ -1,47 +1,14 @@
-* {
-  padding: 0;
-  margin: 0;
-  border: 0; }
-
-.menu {
-  display: grid;
-  grid-column-gap: 200px;
-  grid-row-gap: 40px;
-  font-family: 'poppins';
-  text-align: right;
-  font-size: larger; }
-
 h2 {
-  color: blue;
+  color: #454282;
   text-align: left; }
 
 h1 {
-  color: blue;
+  color: #492818;
   text-align: center;
   padding-top: 50px; }
 
-.conocenos {
-  color: blue;
-  text-align: center; }
-  .conocenos p {
-    line-height: 2;
-    font-family: sans-serif;
-    margin-right: 100px;
-    margin-left: 70px;
-    font-size: large;
-    font-style: italic;
-    word-spacing: 5px;
-    letter-spacing: 2px;
-    padding: 20px;
-    margin: 10px;
-    border: 5px dashed blue;
-    display: grid;
-    height: 50vh;
-    width: 100%; }
-
 body {
   background-size: contain;
-  color: #33347c, 250;
   font-family: 'poppins';
   background-image: url(../img/fondogris.jpg); }
 
@@ -54,11 +21,6 @@ footer {
 
 .mapa {
   padding-left: 35%; }
-
-.secciones {
-  text-decoration: none;
-  color: blue;
-  word-spacing: 40px; }
 
 .link {
   text-decoration: none;
@@ -99,7 +61,7 @@ footer {
   background-color: rgba(99, 102, 194, 0.222);
   text-align: left; }
 
-.btn {
+.btn, .btn:hover {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -118,18 +80,12 @@ footer {
   font-family: 'poppins'; }
 
 .btn:hover {
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-  background: #c91212; }
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
 
 @media screen and (max-width: 600px) {
   .topnav a {
     float: none;
     width: 100%; } }
-
-.textoconocenos {
-  background-color: #f5f7fc;
-  font-size: 20px;
-  text-align: center; }
 
 .tienda {
   display: grid;
@@ -214,3 +170,38 @@ footer {
   text-align: left; }
   .videosito .vid {
     font-size: 35px; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #BC7C58; }
+
+li {
+  float: left; }
+
+li a {
+  display: block;
+  color: #ede9ea;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+li a:hover {
+  background-color: #492818;
+  color: bisque; }
+
+div.noticia {
+  width: 50%;
+  margin: 20px auto;
+  background-color: #ADA9AA;
+  color: #492818;
+  padding-top: 50px;
+  text-align: center; }
+
+div.noticia img.izquierda {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 15px; }
