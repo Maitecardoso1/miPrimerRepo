@@ -56,14 +56,9 @@ h1 {
 body {
     background-size: contain;
     color: rgb(51, 52, 124), 250;
-    font-family: 'poppins';
-    background-image: url(../img/fondogris.jpg);
 }
 
-footer {
-    font-family: 'poppins';
 
-}
 
 
 .logo {
